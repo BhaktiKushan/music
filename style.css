@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.music{
+    background: rgb(173, 166, 166);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.nav{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+
+.nav i{
+    cursor: pointer;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 170%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+#song{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.allu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
