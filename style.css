@@ -23,6 +23,7 @@
     display: flex;
     padding: 50px;
     justify-content: space-evenly;
+    gap: 200px;
 
 }
 
